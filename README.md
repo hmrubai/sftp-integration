@@ -17,7 +17,8 @@ Before using the SFTP driver, you will need to install the Flysystem SFTP packag
     composer require league/flysystem-sftp-v3 "^3.0"
 ```
 
-### STEP 02: Laravel's Flysystem integrations work great with SFTP; however, a sample configuration is not included with the framework's default (config/filesystems.php) configuration file. If you need to configure an SFTP filesystem, you may use the configuration example below:
+### STEP 02: Update config/filesystems.php
+Laravel's Flysystem integrations work great with SFTP; however, a sample configuration is not included with the framework's default (config/filesystems.php) configuration file. If you need to configure an SFTP filesystem, you may use the configuration example below:
 
 ```
     ...
@@ -97,3 +98,4 @@ Before using the SFTP driver, you will need to install the Flysystem SFTP packag
     }
 ```
 
+-- That's it!
