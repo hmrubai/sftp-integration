@@ -98,4 +98,4 @@ Laravel's Flysystem integrations work great with SFTP; however, a sample configu
     }
 ```
 
--- That's it!
+- That's it!
